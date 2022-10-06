@@ -1,5 +1,9 @@
-print("Kérem a háromszög oldalának a hosszát:")
-oldal = float(input())
-print("Kérem a háromszög magasságát: ")
-magassag = float(input())
-print("A háromszög területe: " + str(magassag * oldal / 2))
+def dolgozat():
+    oldal=int(input("Kérem a háromszög oldalának a hosszát: "))
+    magassag=int(input("Kérem a háromszög oldalának a magasságát: "))
+    print(f"A háromszög területe: ",(oldal*magassag/2))
+
+def main():
+    dolgozat()
+
+main()
