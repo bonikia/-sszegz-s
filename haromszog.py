@@ -1,0 +1,5 @@
+print("Kérem a háromszög oldalának a hosszát:")
+oldal = float(input())
+print("Kérem a háromszög magasságát: ")
+magassag = float(input())
+print("A háromszög területe: " + str(magassag * oldal / 2))
